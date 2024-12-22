@@ -1,0 +1,31 @@
+# Financial Calculations Package
+
+## Overview
+This package provides tools for calculating:
+1. Cash Flows
+2. Present and Future Values
+3. Financial Metrics such as Net Present Value (NPV) and Internal Rate of Return (IRR).
+
+## Features
+- **Cash Flow Analysis**: Calculate net cash flows for inflows and outflows.
+- **Present and Future Value**: Perform time value of money calculations.
+- **NPV and IRR**: Evaluate financial investment performance.
+
+
+financial_calculations_package/
+│
+├── financial_calculations/          # Package Directory
+│   ├── __init__.py                  # Makes it a Python package
+│   ├── cash_flow.py                 # Module 1: Cash Flow Calculations
+│   ├── time_value_money.py          # Module 2: Time Value Calculations
+│   ├── metrics.py                   # Module 3: Financial Metrics
+│   └── utils.py                     # Utilities: Error handling
+│
+├── tests/                           # Testing Directory
+│   ├── test_cash_flow.py            # Unit tests for cash_flow.py
+│   ├── test_time_value_money.py     # Unit tests for time_value_money.py
+│   └── test_metrics.py              # Unit tests for metrics.py
+│
+├── main.py                          # Example script to demonstrate the package
+├── requirements.txt                 # Required libraries
+└── setup.py                         # For packaging the project
